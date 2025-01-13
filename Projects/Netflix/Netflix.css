@@ -1,0 +1,1225 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+.mainBox{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 805px;
+    background-image: url("./Images/netflix-background-image.jpg");
+    object-fit: fill;
+    /* object-position: center;
+    object-fit: cover; */
+    z-index:1;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    
+
+}
+.blackshade{
+    background-image: linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%);
+    z-index: 1;
+    max-height: 805px;
+    width: 100%;
+    height: 100%;
+}
+
+.box1{
+    width: 100%;
+   max-height: 705px;
+    position: relative;
+    margin-bottom: 90px;
+    height: 100%;
+}
+.head{
+    max-height: 170px;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
+}
+
+header{
+    display: flex;
+    z-index: 2;
+    padding: 20px 148px;
+    /* width: 100%; */
+    align-content: center;
+    
+}
+header img{
+    object-fit: contain;
+    object-position: center;
+    width: 148px;
+    height: 40px;
+}
+header .buttons{
+ display: flex;
+ margin-left: auto;
+}
+header .selecti,footer .selecti{
+    /* display: flex; */
+    position: relative;
+    justify-content: space-between;
+    width: 123px;
+    height:32px;
+    align-content: center;
+    border: 1px solid #645e5e;
+    border-radius:4px;
+    text-align: center;
+    outline: none;
+     /* outline-offset:2px;
+    outline: 2px solid transparent; 
+     */
+}
+
+
+.selecti select{
+    box-sizing: border-box;
+    
+    width: 123px;
+    height: 32px;
+    /* -webkit-appearance: none; Removes the arrow in Safari and Chrome */
+  /* -moz-appearance: none; Removes the arrow in Firefox */
+  appearance: none;
+    background: none;         /* Remove default background including arrow */
+    background-color: transparent;
+    color: #fff;
+    border: none; 
+     outline: none;
+    font-size:17px; 
+    /* padding: 0px 5px; */
+    text-align: center;
+    /* outline-offset: 1px; */
+   
+   
+}
+.selecti select option {
+    color: #333; /* Text color */
+    background-color: #fff; /* Background color */
+    font-size: 16px; /* Font size */
+    padding: 10px 0px; /* Padding inside the dropdown */
+  }
+.selecti .lang{
+    position: absolute;
+    color: #fff;
+    font-size: 0.7rem;
+    transform: translateY(-50%);
+    top:50%;
+    left: 10px;
+}
+.selecti .down{
+    position: absolute;
+    font-size: 0.7rem;
+    color: #fff;
+    transform: translateY(-50%);
+    top:50%;
+    right: 15px;
+}
+header .signIn{
+    width: 76px;
+    height:32px;
+    align-content: center;
+    background-color: #E50914;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+.box21{
+    padding: 32px;
+    /* margin-top: 90px; */
+    /* margin-top: auto; */
+}
+.jyadaPadding{
+    display: flex;
+    flex-direction: column;
+    /* margin:0 430px; */
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+.content{
+    display:block;
+    text-align: center;
+    max-width: 588px;
+    margin-bottom:32px;
+}
+.jyadaPadding h1{
+    
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin: 0;
+        padding: 0;
+        color: rgb(255, 255, 255);
+        font-size: 3.5rem;
+        font-weight: 900;
+        line-height: 125%;
+        margin-bottom: 16px;
+    
+}
+.jyadaPadding p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500
+}
+.emailFilling{
+    display: block;
+    text-align: center;
+    max-width: 588px;
+}
+.emailFilling form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.emailFilling h3{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+/* .emailFilling .enterEmail{
+    display: flex;
+} */
+
+.submitEmail{
+    
+    display: grid;
+    grid-template-columns:80% auto;
+
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    /* height: 60px; */
+    z-index: 2;
+    gap: 15px;
+}
+
+.submitEmail .enter{
+    position: relative;
+    /* width: 80%; */
+}
+
+.submitEmail .enter label{
+    position: absolute;
+    width: 90%;
+    color: rgb(133, 125, 125);
+    text-align: left;
+    transform:translateY(-50%);
+    top: 50%;
+    left: 17px;
+    padding-left: 3px;
+    transition-duration: 250ms;
+    
+}
+.submitEmail .enter label:hover{
+    cursor: text;
+}
+
+.submitEmail input{
+    /* position: absolute; */
+    font-size: 1rem;
+    line-height: 1.5;
+    /* height: 3rem; */
+    width:90%;
+    padding: 1.5rem 1rem 0.5rem;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    z-index: 4;
+    
+} 
+.submitEmail .btn1{
+    width: 206px;
+    height: inherit;
+    align-content: center;
+}
+.submitEmail button{
+    display: flex;
+    margin-left: auto;
+    /* height: inherit; */
+    width: 206px;
+    font-size: 1.5rem;
+    
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    background-color: #E50914;
+    border-radius: 4px;
+    /* margin-left: 10px; */
+}
+
+.submitEmail button i{
+    margin-left:8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    
+}
+.box2{
+    /* box-sizing: border-box; */
+    width: 100%;
+    height:100px ;
+    /* margin: 0 10px; */
+    overflow: hidden;
+
+    
+}
+.curveContainer{
+    position: relative;
+    width: 130%;
+    left:-15%;
+    height:100px ;
+    border: solid .25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    /* background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black; */
+    z-index: 1;
+    margin: 0 auto;
+    background-clip: padding-box;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+
+.curveContainer:before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    
+    margin-top:0.05rem ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background: transparent;
+    /* background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%); */
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+.box3{
+    position: absolute;
+    width: 100%;
+    margin-top:-35px;
+    z-index:2;
+    /* color: #fff; */
+    background-color:#050608fb;
+}
+.box3 .jyadaPadding2{
+    /* position: absolute; */
+    /* width: 100%; */
+    padding: 0 148px 96px 148px;
+    /* z-index: 0; */
+    /* color: #fff; */
+}
+.heading2{
+    color: #fff;
+    font-weight: normal;
+}
+.fieldsetContainer{
+    display: flex;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+.fieldsetContainer .fieldset1,.fieldset2{
+    display: inline-block;
+    position: relative;
+    justify-content: space-between;
+    /* width: 123px; */
+    /* height:32px; */
+    align-content: center;
+    border: 1px solid #645e5e;
+    border-radius:4px;
+    text-align: center;
+    outline: #fff;
+    
+
+}
+
+.fieldset2{
+    margin-left:25px;
+}
+.fieldset1 select{
+    box-sizing: border-box;
+    
+    /* width: 123px; */
+    /* height: 32px; */
+    /* -webkit-appearance: none; Removes the arrow in Safari and Chrome */
+  /* -moz-appearance: none; Removes the arrow in Firefox */
+  appearance: none;
+    background: none;         /* Remove default background including arrow */
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size:17px; 
+    /* padding: 0px 5px; */
+    /* text-align: center; */
+    padding: 12px 30px 12px 10px;
+}
+.fieldset2 select{
+    box-sizing: border-box;
+    
+    /* width: 123px; */
+    /* height: 32px; */
+    /* -webkit-appearance: none; Removes the arrow in Safari and Chrome */
+  /* -moz-appearance: none; Removes the arrow in Firefox */
+  appearance: none;
+    background: none;         /* Remove default background including arrow */
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size:17px; 
+    /* padding: 0px 5px; */
+    /* text-align: center; */
+    padding: 12px 10px;
+    
+}
+.fieldset1 select option, .fieldset2 select option{
+    color: #333; /* Text color */
+    background-color: #fff; /* Background color */
+    font-size: 16px; /* Font size */
+    padding: 10px 0px; /* Padding inside the dropdown */
+  }
+ .dropdown{
+    position: absolute;
+    color: #fff;
+    font-size: 0.7rem;
+    transform: translateY(-50%);
+    top:50%;
+    right: 10px;
+}
+.lists{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    /* overflow: hidden; */
+    /* padding:0 20px ; */
+}
+.lists .over{
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}
+.unorderedLists{
+    position: relative;
+    width: 100%;
+    /* overflow: hidden; */
+    /* left: -66%; */
+    transition-duration: 1s ease-in-out;
+    /* transform: translateX(-66%); */
+}
+.lists .preBtn,.nextBtn{
+    position: absolute;
+    /* font-size: 20px; */
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    /* border-radius: 50%; */
+    cursor: pointer;
+    background: #050608fb;
+    /* border: 1px solid white; */
+    /* border-radius: 10px; */
+    /* color: #f9f1f1d1; */
+    z-index:10;
+    height: 256px;
+    
+    align-content: center;
+}
+.lists .preBtn{
+    right: auto;
+    left: 0px; 
+    padding-right: 10px;
+    transition: 0.8s ease-in-out;
+    /* left: -60px; */
+    /* opacity: 0; */
+}
+.lists .nextBtn{
+    padding-left: 10px;
+    right: 0px;
+    transition: 0.8s ease-in-out;
+    /* right: -60px; */
+}
+.lists .prev,.next{
+    /* position: absolute; */
+    font-size: 20px;
+    /* top: 50%; */
+    /* right: 0; */
+    /* transform: translateY(-50%); */
+    padding: 50px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #2d2a2a;
+    border-radius: 7px;
+    color: #f9f1f1d1;
+    /* z-index:5; */
+    /* height: inherit; */
+}
+ 
+
+.unorderedLists ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    /* overflow: hidden; */
+    width:165%;
+    transition :0.8s ease-in-out; ;
+    
+}
+.unorderedLists ul li{
+    padding:8px 22px;
+    width: 10%;
+    min-width: 180px;
+}
+.unorderedLists ul li button{
+    position: relative;
+    padding:0;
+    border: none;
+     min-width: 180px;
+   height:252px; 
+   border-radius:10px ;
+  
+}
+.unorderedLists ul li button .number{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    /* top:40px; */
+    left:-20px;
+    bottom: 10px;
+}
+.unorderedLists ul li img{
+  width: 180px;
+  height:252px;
+  border-radius: 10px;
+
+  
+   object-fit: cover;
+   object-position: center;
+}
+.flexes{
+    margin-top: 40px;
+}
+.TwoBoxes {
+    color:  rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    
+}
+.TwoBoxes h2{
+    color:  rgb(255, 255, 255);
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 24px;
+    font-weight: normal; 
+}
+
+.FourBoxes{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    
+    gap: 16px;
+    box-sizing: border-box;
+    /* flex: 1 1 16px;  */
+}
+/* .FourBoxes{
+    display: grid;
+    grid-template-columns: minmax(122px, auto);
+    grid-auto-flow: column;
+    gap: 10px;
+   
+} */
+.boxOne1{
+    /* display: flex; */
+    position: relative;
+    /* flex-direction: column; */
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 20px;
+    color: #c5bdbd;
+    /* flex: 3 2 350px; */
+    width: 100%;
+    height: inherit;
+    padding: 16px 16px 128px 16px;
+    /* flex: 3 2 350px; */
+    
+}
+/* .One{
+    width: 25%;
+} */
+ .heading4, .para1{
+     width: 100%;
+    
+}
+.boxOne1 h3{
+    font-size: 24px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    
+}
+.boxOne1 p{
+    
+    font-size:16px;
+    text-align: left;
+}
+.boxOne1 .img1{
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 60px;
+    height:60px;
+}
+.boxOne1 .img1 img{
+    height: 55px;
+    width: 55px;
+}
+.Questions{
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.Questions .heading12{
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: normal; 
+} 
+
+.dabba2{
+    background-color: #333;
+    margin-top: 2px;
+    padding: 0px 20px;
+    /* width: 100%; */
+    height: 0;
+   
+   transition: height 0.5s ease-in-out ;
+   overflow: hidden;
+   color:rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 800;
+    /* width: 100%; */
+    /* align-items: center; */
+    font-weight: normal;
+}
+/* .dabba2 p{
+   
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 800;
+    width: 100%;
+    /* align-items: center; */
+    /* font-weight: normal;
+    background-color: #333; */
+    
+/* } */ 
+
+.dabba12{
+    display: flex;
+    color:rgb(255, 255, 255);
+    /* font-size: 20px; */
+    background-color: #333;
+    /* width: 100%; */
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.dabba12 h2{
+    display: flex;
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 800;
+    width: 100%;
+    align-items: center;
+    font-weight: normal;
+}
+.dabba12 i{
+    font-size: 35px;
+    margin-left:auto;
+    color:rgb(255, 255, 255);
+}
+.readyToWatch{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.readyToWatch h3{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.readyToWatch  .submitEmails{
+    display:flex;
+    align-content: center;
+    padding-left: auto;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+/* .emailFilling .enterEmail{
+    display: flex;
+} */
+.submitEmails .enters{
+    position: relative;
+    width: 45%;
+    margin-left:10px;
+}
+
+.submitEmails .enters label{
+    position: absolute;
+    width: 93%;
+    color: rgb(135, 129, 129);
+    text-align: left;
+    transform:translateY(-50%);
+    top: 50%;
+    left: 20px;
+    transition-duration: 250ms;
+    
+}
+
+.submitEmails input{
+    font-size: 1rem;
+    line-height: 1.5;
+    /* height: 3rem; */
+    width:93%;
+    padding: 1.5rem 1rem 0.5rem;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+
+    
+} 
+.submitEmails button{
+    display: flex;
+    /* margin-left: auto; */
+    font-size: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.2rem 1.1rem;
+    color: rgb(255, 255, 255);
+    background-color: #E50914;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.submitEmails button i{
+    margin-left:10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    
+}
+
+.submitEmails .enters label:hover{
+    cursor: text;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    color: #bfb9b9;
+}
+footer a{
+    text-decoration: underline;
+}
+.CallOptions{
+    width: 100%;
+    margin-bottom:30px;
+}
+
+.CallOptions a{
+    margin-left:8px;
+}
+
+.Options{
+    width: 100%;
+    margin-bottom:30px;
+    display: flex; /* Makes the container a flexbox */
+    /* justify-content: center; Centers the content horizontally */
+    background-color: #07080afb;
+    
+}
+
+
+  
+  .Options ul {
+    display: flex; /* Makes the list itself a flex container */
+    flex-wrap: wrap; /* Allows items to wrap to the next row */
+    width: 100%; /* Maximum width for the list */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    list-style: none; /* Removes default list styling */
+  }
+  
+  .Options li {
+    flex: 0 0  300px; /* Each list item will have a base width of 200px and can grow */
+    margin-bottom: 10px; /* Space between items */
+  }
+  
+  .Options a {
+    color: #bfb9b9; /* Sets the color for the links */
+    text-decoration: underline; /* Removes underline from links */
+    font-size: 15px; 
+  }
+  footer .selecti{
+    margin-bottom:40px;
+  }
+
+  @media(min-width:1500px){
+    .box21{
+        margin-top:90px;
+    }
+  }
+  @media(max-width:1280px){
+    .content{
+        max-width: 508px;
+    }
+    .jyadaPadding h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .jyadaPadding p{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .submitEmail{
+        grid-template-columns: 63% auto;
+    }
+    .submitEmail .btn1{
+        width: 176px;
+        height: inherit;
+        align-content: center;
+        border-radius: 4px;
+    }
+    .submitEmail button{
+        /* display: flex;
+        margin-left: auto; */
+        /* height: inherit; */
+        width: 176px;
+        font-size: 1.2rem;
+        
+        /* justify-content: space-between; */
+        /* align-items: center; */
+         padding: 17px 25px; 
+        /* color: rgb(255, 255, 255);
+        background-color: #E50914;
+        /* border-radius: 4px; */  
+        /* margin-left: 10px; */
+    }
+    
+    .submitEmail button i{
+        /* margin-left:8px;
+        color: rgb(255, 255, 255); */
+        font-size: 1.25rem;
+        
+    }
+    header{
+        padding: 20px 80px;
+    }
+    .box21{
+        margin-top: 90px;
+        margin-bottom: 150px;
+    }
+    .curveContainer{
+        border-top-left-radius: 50% 75%;
+        border-top-right-radius: 50% 75%;
+    }
+    .box3 .jyadaPadding2{
+        
+        padding: 0 80px 96px 80px;
+        
+    }
+    .submitEmails button{
+        /* margin-left: auto; */
+        font-size: 1.2rem;
+        justify-content: space-between;
+        align-items: center;
+        padding:0.2rem 1.5rem;
+    }
+    
+    .submitEmails button i{
+        margin-left:15px;
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        /* color: ; */
+        
+    }
+    .Options li {
+        flex: 1 0  300px; /* Each list item will have a base width of 200px and can grow */
+        margin-bottom: 13px; /* Space between items */
+      }
+
+      .unorderedLists ul{
+        width:140%;
+    
+        
+    }
+    .unorderedLists ul li{
+        padding:6.4px 22px;
+        min-width: 10%;
+        min-width: 140px;
+    }
+    .unorderedLists ul li button{
+        position: relative;
+        padding:0;
+        border: none;
+         min-width: 140px;
+       height:196px; 
+       border-radius:10px ;
+      
+    }
+    .unorderedLists ul li button .number{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        /* top:40px; */
+        left:-20px;
+        bottom: 10px;
+    }
+    .unorderedLists ul li img{
+      width: 140px;
+      height:196px;
+      border-radius: 10px;
+    
+      
+       object-fit: cover;
+       object-position: center;
+    }
+    .lists .preBtn,.nextBtn{
+
+        height:200px ;
+    }
+    .FourBoxes{
+        
+        flex-wrap: wrap;
+       
+    }
+    .boxOne1{
+        padding: 16px 16px 96px 16px;
+        flex: 3 2 350px;
+        flex-shrink: 350px;
+        width:350px;
+        
+    }
+    .number svg text{
+        font-size:90px;
+        stroke-width:2;
+    }
+    .boxOne1 .heading4{
+        font-size:20px;
+    }
+  }
+  @media(max-width:960px){
+    .head header{
+        padding:20px 32px;
+    }
+    header img{
+        width: 110px;
+        height: 25px;
+    }
+    .content{
+        max-width: 432px;
+        margin-bottom: 20px;
+    }
+    .jyadaPadding h1{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .jyadaPadding p{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    header{
+        padding: 20px 80px;
+    }
+    .box21{
+        margin-top: 90px;
+        margin-bottom: 120px;
+    }
+    .emailFilling{
+        display: block;
+        text-align: center;
+        max-width: 432px;
+    }
+    .emailFilling form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .emailFilling h3{
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+    }
+    /* .emailFilling .enterEmail{
+        display: flex;
+    } */
+    
+    .submitEmail{
+        
+        grid-template-columns:55% auto;
+    }
+    
+    .submitEmail .enter{
+        position: relative;
+        /* width: 80%; */
+    }
+    
+    .submitEmail .enter label{
+        position: absolute;
+        width: 90%;
+        color: rgb(133, 125, 125);
+        text-align: left;
+        transform:translateY(-50%);
+        top: 50%;
+        left: 17px;
+        padding-left: 3px;
+        transition-duration: 250ms;
+        
+    } 
+    .curveContainer{
+        border-top-left-radius: 50% 50%;
+        border-top-right-radius: 50% 50%;
+    }
+    .box3 .jyadaPadding2{
+        
+        padding: 0 32px 96px 32px;
+        
+    }
+    .unorderedLists ul{
+        width:90%;
+    
+        
+    }
+    .unorderedLists ul li{
+        padding: 4.8px 10px;
+        min-width: 10%;
+        min-width: 112px;
+    }
+    .unorderedLists ul li button{
+        position: relative;
+        padding:0;
+        border: none;
+         min-width: 112px;
+       height:156px; 
+       border-radius:10px ;
+      
+    }
+    .unorderedLists ul li button .number{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        /* top:40px; */
+        left:-20px;
+        bottom: 10px;
+    }
+    .unorderedLists ul li img{
+      width: 112px;
+      height:156px;
+      border-radius: 10px;
+    
+      
+       object-fit: cover;
+       object-position: center;
+    }
+    .number svg text{
+        font-size:70px;
+        stroke-width:1.5;
+    }
+    .lists .preBtn,.nextBtn{
+
+        height:160px ;
+    }
+    .unorderedLists ul li button .number{
+        
+        left:-14px;
+        
+    }
+    /* .readyToWatch  .submitEmails{
+        display:flex;
+        align-content: center;
+        padding-left: auto;
+        /* align-items: center; */
+        /* justify-content: center; */
+    /* } */
+    
+    
+    /* .emailFilling .enterEmail{
+        display: flex;
+    } */
+    .submitEmails .enters{
+        position: relative;
+        width: 80%;
+        margin-left:10px;
+    }
+    
+    .submitEmails .enters label{
+        position: absolute;
+        width: 88%;
+        color: rgb(135, 129, 129);
+        text-align: left;
+        transform:translateY(-50%);
+        top: 50%;
+        left: 20px;
+        transition-duration: 250ms;
+        
+    }
+    .submitEmails button{
+        /* margin-left: auto; */
+        font-size: 1.2rem;
+        justify-content: space-between;
+        align-items: center;
+        padding:0.2rem 1.2rem;
+        width: 176px;
+        height: inherit;
+    }
+    .submitEmails button i{
+        margin-left:15px;
+    }
+    .FourBoxes{
+        
+        flex-wrap: wrap;
+       
+    }
+    .boxOne1{
+        padding: 16px 16px 96px 16px;
+        flex: 3 2 400px;
+        /* flex-shrink: 350px; */
+        width:350px;
+        
+    }
+    .box3 h2{
+        font-size:20px;
+    }
+    .boxOne1 .heading4{
+        font-size:20px;
+    }
+    .Questions .heading12{
+        font-size:20px;
+    }
+    .dabba2 p{
+        font-size:20px;
+    }
+    .dabba12 i{
+        font-size:25px;
+    }
+  }
+  @media(max-width:600px){
+    .head header{
+        padding:20px 24px;
+    }
+    .content{
+        max-width: 520px;
+    }
+    .emailFilling{
+        display: block;
+        text-align: center;
+        max-width: 520px;
+    }
+    .emailFilling form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .emailFilling .enter{
+        width: 100%;
+    }
+    
+    .emailFilling h3{
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+    }
+    /* .emailFilling .enterEmail{
+        display: flex;
+    } */
+    
+    .submitEmail{
+        display: flex;
+        flex-direction: column;
+        /* grid-template-rows:55% auto; */
+        align-content: center;
+        align-items: center;
+    }
+    .submitEmail button{
+        width: 160px;
+        font-size: 1.1rem;
+         padding: 13px 17px; 
+        
+    }
+    .submitEmail .btn1 i{
+        margin-left:10px;
+        font-size: 1.1rem;
+        
+    }
+    .box3 .jyadaPadding2{
+        
+        padding: 0 24px 96px 24px;
+        
+    }
+    .submitEmails{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .submitEmails .enters{
+        width: 100%;
+    }  
+    .submitEmails button{
+        padding:0.7rem 1rem;
+        width: 160px;
+    }
+    .submitEmails button i{
+        /* padding:0.7rem 1rem; */
+        margin-left: 10px;
+    }
+    .box21{
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+  }
+  
